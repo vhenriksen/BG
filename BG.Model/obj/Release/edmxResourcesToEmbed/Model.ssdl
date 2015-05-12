@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="TaskSet" EntityType="Model.Store.TaskSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DailyReportSet" EntityType="Model.Store.DailyReportSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EconomicCacheSet" EntityType="Model.Store.EconomicCacheSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EconomicProjectSet" EntityType="Model.Store.EconomicProjectSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EconomicTaskTypeSet" EntityType="Model.Store.EconomicTaskTypeSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserSet" EntityType="Model.Store.UserSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GroupSet" EntityType="Model.Store.GroupSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RoutineSet" EntityType="Model.Store.RoutineSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ActivitySet" EntityType="Model.Store.ActivitySet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BreakSet" EntityType="Model.Store.BreakSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RouteSet" EntityType="Model.Store.RouteSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DateSet" EntityType="Model.Store.DateSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ActivityUserSet" EntityType="Model.Store.ActivityUserSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EconomicProjectEconomicTask" EntityType="Model.Store.EconomicProjectEconomicTask" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GroupUser" EntityType="Model.Store.GroupUser" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DateRoutine" EntityType="Model.Store.DateRoutine" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserRoutine" EntityType="Model.Store.UserRoutine" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="UserDailyReport" Association="Model.Store.UserDailyReport">
+      <End Role="User" EntitySet="UserSet" />
+      <End Role="DailyReport" EntitySet="DailyReportSet" />
+    </AssociationSet>
+    <AssociationSet Name="DailyReportTask" Association="Model.Store.DailyReportTask">
+      <End Role="DailyReport" EntitySet="DailyReportSet" />
+      <End Role="Task" EntitySet="TaskSet" />
+    </AssociationSet>
+    <AssociationSet Name="EconomicCacheEconomicProject" Association="Model.Store.EconomicCacheEconomicProject">
+      <End Role="EconomicCache" EntitySet="EconomicCacheSet" />
+      <End Role="EconomicProject" EntitySet="EconomicProjectSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EconomicProjectEconomicTask_EconomicProject" Association="Model.Store.FK_EconomicProjectEconomicTask_EconomicProject">
+      <End Role="EconomicProject" EntitySet="EconomicProjectSet" />
+      <End Role="EconomicProjectEconomicTask" EntitySet="EconomicProjectEconomicTask" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EconomicProjectEconomicTask_EconomicTask" Association="Model.Store.FK_EconomicProjectEconomicTask_EconomicTask">
+      <End Role="EconomicTask" EntitySet="EconomicTaskTypeSet" />
+      <End Role="EconomicProjectEconomicTask" EntitySet="EconomicProjectEconomicTask" />
+    </AssociationSet>
+    <AssociationSet Name="EconomicTaskTask" Association="Model.Store.EconomicTaskTask">
+      <End Role="EconomicTask" EntitySet="EconomicTaskTypeSet" />
+      <End Role="Task" EntitySet="TaskSet" />
+    </AssociationSet>
+    <AssociationSet Name="EconomicProjectTask" Association="Model.Store.EconomicProjectTask">
+      <End Role="EconomicProject" EntitySet="EconomicProjectSet" />
+      <End Role="Task" EntitySet="TaskSet" />
+    </AssociationSet>
+    <AssociationSet Name="EconomicProjectGroup" Association="Model.Store.EconomicProjectGroup">
+      <End Role="EconomicProject" EntitySet="EconomicProjectSet" />
+      <End Role="Group" EntitySet="GroupSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GroupUser_Group" Association="Model.Store.FK_GroupUser_Group">
+      <End Role="Group" EntitySet="GroupSet" />
+      <End Role="GroupUser" EntitySet="GroupUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GroupUser_User" Association="Model.Store.FK_GroupUser_User">
+      <End Role="User" EntitySet="UserSet" />
+      <End Role="GroupUser" EntitySet="GroupUser" />
+    </AssociationSet>
+    <AssociationSet Name="ActivityEconomicProject" Association="Model.Store.ActivityEconomicProject">
+      <End Role="Activity" EntitySet="ActivitySet" />
+      <End Role="EconomicProject" EntitySet="EconomicProjectSet" />
+    </AssociationSet>
+    <AssociationSet Name="ActivityRoutine" Association="Model.Store.ActivityRoutine">
+      <End Role="Activity" EntitySet="ActivitySet" />
+      <End Role="Routine" EntitySet="RoutineSet" />
+    </AssociationSet>
+    <AssociationSet Name="ActivityEconomicTaskType" Association="Model.Store.ActivityEconomicTaskType">
+      <End Role="Activity" EntitySet="ActivitySet" />
+      <End Role="EconomicTaskType" EntitySet="EconomicTaskTypeSet" />
+    </AssociationSet>
+    <AssociationSet Name="BreakDailyReport" Association="Model.Store.BreakDailyReport">
+      <End Role="Break" EntitySet="BreakSet" />
+      <End Role="DailyReport" EntitySet="DailyReportSet" />
+    </AssociationSet>
+    <AssociationSet Name="RouteRoutine" Association="Model.Store.RouteRoutine">
+      <End Role="Route" EntitySet="RouteSet" />
+      <End Role="Routine" EntitySet="RoutineSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DateRoutine_Date" Association="Model.Store.FK_DateRoutine_Date">
+      <End Role="Date" EntitySet="DateSet" />
+      <End Role="DateRoutine" EntitySet="DateRoutine" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DateRoutine_Routine" Association="Model.Store.FK_DateRoutine_Routine">
+      <End Role="Routine" EntitySet="RoutineSet" />
+      <End Role="DateRoutine" EntitySet="DateRoutine" />
+    </AssociationSet>
+    <AssociationSet Name="ActivityTask" Association="Model.Store.ActivityTask">
+      <End Role="Activity" EntitySet="ActivitySet" />
+      <End Role="Task" EntitySet="TaskSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserRoutine_User" Association="Model.Store.FK_UserRoutine_User">
+      <End Role="User" EntitySet="UserSet" />
+      <End Role="UserRoutine" EntitySet="UserRoutine" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserRoutine_Routine" Association="Model.Store.FK_UserRoutine_Routine">
+      <End Role="Routine" EntitySet="RoutineSet" />
+      <End Role="UserRoutine" EntitySet="UserRoutine" />
+    </AssociationSet>
+    <AssociationSet Name="ActivityActivityUser" Association="Model.Store.ActivityActivityUser">
+      <End Role="Activity" EntitySet="ActivitySet" />
+      <End Role="ActivityUser" EntitySet="ActivityUserSet" />
+    </AssociationSet>
+    <AssociationSet Name="ActivityUserActivity" Association="Model.Store.ActivityUserActivity">
+      <End Role="ActivityUser" EntitySet="ActivityUserSet" />
+      <End Role="Activity" EntitySet="ActivitySet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TaskSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TimeEnded" Type="datetime" Nullable="true" />
+    <Property Name="TimeStarted" Type="datetime" Nullable="true" />
+    <Property Name="isEmailed" Type="bit" Nullable="false" />
+    <Property Name="DailyReport_Id" Type="int" Nullable="false" />
+    <Property Name="EconomicTask_Id" Type="int" Nullable="false" />
+    <Property Name="EconomicTask_EconomicTaskTypeId" Type="int" Nullable="false" />
+    <Property Name="EconomicProject_Id" Type="int" Nullable="false" />
+    <Property Name="Activity_Id" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="DailyReportSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DayEnded" Type="datetime" Nullable="true" />
+    <Property Name="DayStarted" Type="datetime" Nullable="true" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EconomicCacheSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LastUpdated" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EconomicProjectSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EconomicProjectId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EconomicCache_Id" Type="int" Nullable="false" />
+    <Property Name="Group_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EconomicTaskTypeSet">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="EconomicTaskTypeId" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EconomicTaskTypeId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EconomicUserId" Type="int" Nullable="false" />
+    <Property Name="Username" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsAdmin" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GroupSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EconomicGroupNumber" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RoutineSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="RouteId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ActivitySet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Minutes" Type="float" Nullable="false" />
+    <Property Name="ActivityTaken" Type="datetime" Nullable="true" />
+    <Property Name="IsUsed" Type="bit" Nullable="false" />
+    <Property Name="EconomicProject_Id" Type="int" Nullable="false" />
+    <Property Name="Routine_Id" Type="int" Nullable="true" />
+    <Property Name="EconomicTaskType_Id" Type="int" Nullable="false" />
+    <Property Name="EconomicTaskType_EconomicTaskTypeId" Type="int" Nullable="false" />
+    <Property Name="TakenBy_Id" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="BreakSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BreakStarted" Type="datetime" Nullable="true" />
+    <Property Name="BreakEnded" Type="datetime" Nullable="true" />
+    <Property Name="DailyReport_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RouteSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DateSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TheDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ActivityUserSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ActivityId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EconomicProjectEconomicTask">
+    <Key>
+      <PropertyRef Name="EconomicProject_Id" />
+      <PropertyRef Name="EconomicTaskTypes_Id" />
+      <PropertyRef Name="EconomicTaskTypes_EconomicTaskTypeId" />
+    </Key>
+    <Property Name="EconomicProject_Id" Type="int" Nullable="false" />
+    <Property Name="EconomicTaskTypes_Id" Type="int" Nullable="false" />
+    <Property Name="EconomicTaskTypes_EconomicTaskTypeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GroupUser">
+    <Key>
+      <PropertyRef Name="Group_Id" />
+      <PropertyRef Name="User_Id" />
+    </Key>
+    <Property Name="Group_Id" Type="int" Nullable="false" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DateRoutine">
+    <Key>
+      <PropertyRef Name="Dates_Id" />
+      <PropertyRef Name="Routines_Id" />
+    </Key>
+    <Property Name="Dates_Id" Type="int" Nullable="false" />
+    <Property Name="Routines_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserRoutine">
+    <Key>
+      <PropertyRef Name="Users_Id" />
+      <PropertyRef Name="Routines_Id" />
+    </Key>
+    <Property Name="Users_Id" Type="int" Nullable="false" />
+    <Property Name="Routines_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="UserDailyReport">
+    <End Role="User" Type="Model.Store.UserSet" Multiplicity="1" />
+    <End Role="DailyReport" Type="Model.Store.DailyReportSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DailyReport">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DailyReportTask">
+    <End Role="DailyReport" Type="Model.Store.DailyReportSet" Multiplicity="1" />
+    <End Role="Task" Type="Model.Store.TaskSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DailyReport">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="DailyReport_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EconomicCacheEconomicProject">
+    <End Role="EconomicCache" Type="Model.Store.EconomicCacheSet" Multiplicity="1" />
+    <End Role="EconomicProject" Type="Model.Store.EconomicProjectSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EconomicCache">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EconomicProject">
+        <PropertyRef Name="EconomicCache_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EconomicTaskTask">
+    <End Role="EconomicTask" Type="Model.Store.EconomicTaskTypeSet" Multiplicity="1" />
+    <End Role="Task" Type="Model.Store.TaskSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EconomicTask">
+        <PropertyRef Name="Id" />
+        <PropertyRef Name="EconomicTaskTypeId" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="EconomicTask_Id" />
+        <PropertyRef Name="EconomicTask_EconomicTaskTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EconomicProjectTask">
+    <End Role="EconomicProject" Type="Model.Store.EconomicProjectSet" Multiplicity="1" />
+    <End Role="Task" Type="Model.Store.TaskSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EconomicProject">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="EconomicProject_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EconomicProjectGroup">
+    <End Role="EconomicProject" Type="Model.Store.EconomicProjectSet" Multiplicity="*" />
+    <End Role="Group" Type="Model.Store.GroupSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EconomicProject">
+        <PropertyRef Name="Group_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ActivityEconomicProject">
+    <End Role="Activity" Type="Model.Store.ActivitySet" Multiplicity="*" />
+    <End Role="EconomicProject" Type="Model.Store.EconomicProjectSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="EconomicProject">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Activity">
+        <PropertyRef Name="EconomicProject_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ActivityRoutine">
+    <End Role="Activity" Type="Model.Store.ActivitySet" Multiplicity="*" />
+    <End Role="Routine" Type="Model.Store.RoutineSet" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Routine">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Activity">
+        <PropertyRef Name="Routine_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ActivityEconomicTaskType">
+    <End Role="Activity" Type="Model.Store.ActivitySet" Multiplicity="*" />
+    <End Role="EconomicTaskType" Type="Model.Store.EconomicTaskTypeSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="EconomicTaskType">
+        <PropertyRef Name="Id" />
+        <PropertyRef Name="EconomicTaskTypeId" />
+      </Principal>
+      <Dependent Role="Activity">
+        <PropertyRef Name="EconomicTaskType_Id" />
+        <PropertyRef Name="EconomicTaskType_EconomicTaskTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="BreakDailyReport">
+    <End Role="Break" Type="Model.Store.BreakSet" Multiplicity="*" />
+    <End Role="DailyReport" Type="Model.Store.DailyReportSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="DailyReport">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Break">
+        <PropertyRef Name="DailyReport_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RouteRoutine">
+    <End Role="Route" Type="Model.Store.RouteSet" Multiplicity="1" />
+    <End Role="Routine" Type="Model.Store.RoutineSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Route">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Routine">
+        <PropertyRef Name="RouteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ActivityTask">
+    <End Role="Activity" Type="Model.Store.ActivitySet" Multiplicity="0..1" />
+    <End Role="Task" Type="Model.Store.TaskSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Activity">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="Activity_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ActivityActivityUser">
+    <End Role="Activity" Type="Model.Store.ActivitySet" Multiplicity="1" />
+    <End Role="ActivityUser" Type="Model.Store.ActivityUserSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Activity">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ActivityUser">
+        <PropertyRef Name="ActivityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ActivityUserActivity">
+    <End Role="ActivityUser" Type="Model.Store.ActivityUserSet" Multiplicity="0..1" />
+    <End Role="Activity" Type="Model.Store.ActivitySet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ActivityUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Activity">
+        <PropertyRef Name="TakenBy_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EconomicProjectEconomicTask_EconomicProject">
+    <End Role="EconomicProject" Type="Model.Store.EconomicProjectSet" Multiplicity="1" />
+    <End Role="EconomicProjectEconomicTask" Type="Model.Store.EconomicProjectEconomicTask" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EconomicProject">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EconomicProjectEconomicTask">
+        <PropertyRef Name="EconomicProject_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EconomicProjectEconomicTask_EconomicTask">
+    <End Role="EconomicProjectEconomicTask" Type="Model.Store.EconomicProjectEconomicTask" Multiplicity="*" />
+    <End Role="EconomicTask" Type="Model.Store.EconomicTaskTypeSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="EconomicTask">
+        <PropertyRef Name="Id" />
+        <PropertyRef Name="EconomicTaskTypeId" />
+      </Principal>
+      <Dependent Role="EconomicProjectEconomicTask">
+        <PropertyRef Name="EconomicTaskTypes_Id" />
+        <PropertyRef Name="EconomicTaskTypes_EconomicTaskTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GroupUser_Group">
+    <End Role="Group" Type="Model.Store.GroupSet" Multiplicity="1" />
+    <End Role="GroupUser" Type="Model.Store.GroupUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GroupUser">
+        <PropertyRef Name="Group_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GroupUser_User">
+    <End Role="GroupUser" Type="Model.Store.GroupUser" Multiplicity="*" />
+    <End Role="User" Type="Model.Store.UserSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GroupUser">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DateRoutine_Date">
+    <End Role="Date" Type="Model.Store.DateSet" Multiplicity="1" />
+    <End Role="DateRoutine" Type="Model.Store.DateRoutine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Date">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DateRoutine">
+        <PropertyRef Name="Dates_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DateRoutine_Routine">
+    <End Role="DateRoutine" Type="Model.Store.DateRoutine" Multiplicity="*" />
+    <End Role="Routine" Type="Model.Store.RoutineSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Routine">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DateRoutine">
+        <PropertyRef Name="Routines_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserRoutine_User">
+    <End Role="User" Type="Model.Store.UserSet" Multiplicity="1" />
+    <End Role="UserRoutine" Type="Model.Store.UserRoutine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserRoutine">
+        <PropertyRef Name="Users_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserRoutine_Routine">
+    <End Role="UserRoutine" Type="Model.Store.UserRoutine" Multiplicity="*" />
+    <End Role="Routine" Type="Model.Store.RoutineSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Routine">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserRoutine">
+        <PropertyRef Name="Routines_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

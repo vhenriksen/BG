@@ -1,0 +1,31 @@
+C:\Users\Kent\Documents\BG\BG.View\bin\BG.View.dll.config
+C:\Users\Kent\Documents\BG\BG.View\bin\BG.View.dll
+C:\Users\Kent\Documents\BG\BG.View\bin\BG.View.pdb
+C:\Users\Kent\Documents\BG\BG.View\bin\BG.Controller.dll
+C:\Users\Kent\Documents\BG\BG.View\bin\BG.Model.dll
+C:\Users\Kent\Documents\BG\BG.View\bin\Economic.Api.dll
+C:\Users\Kent\Documents\BG\BG.View\bin\System.Data.Entity.dll
+C:\Users\Kent\Documents\BG\BG.View\bin\BG.Controller.pdb
+C:\Users\Kent\Documents\BG\BG.View\bin\BG.Model.pdb
+C:\Users\Kent\Documents\BG\BG.View\bin\Economic.Api.xml
+C:\Users\Kent\Documents\BG\BG.View\obj\Release\BG.View.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\BG\BG.View\obj\Release\BG.View.dll
+C:\Users\Kent\Documents\BG\BG.View\obj\Release\BG.View.pdb
+C:\Users\Kent\Documents\BG\BG.View\bin\EntityFramework.dll
+C:\Users\Kent\Documents\BG\BG.View\bin\EntityFramework.xml
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\bin\BG.View.dll.config
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\bin\BG.View.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\bin\BG.View.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\bin\BG.Controller.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\bin\BG.Model.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\bin\Economic.Api.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\bin\EntityFramework.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\bin\System.Data.Entity.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\bin\BG.Controller.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\bin\BG.Model.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\bin\Economic.Api.xml
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\bin\EntityFramework.xml
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\obj\Release\BG.View.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\obj\Release\BG.View.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\obj\Release\BG.View.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.View\bin\Economic.Api.XmlSerializers.dll

@@ -1,0 +1,13 @@
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Tests\bin\Debug\BG.Tests.dll.config
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Tests\bin\Debug\BG.Tests.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Tests\bin\Debug\BG.Tests.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Tests\bin\Debug\BG.Controller.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Tests\bin\Debug\BG.Model.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Tests\bin\Debug\Economic.Api.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Tests\bin\Debug\BG.Controller.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Tests\bin\Debug\BG.Model.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Tests\bin\Debug\Economic.Api.xml
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Tests\bin\Debug\Economic.Api.XmlSerializers.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Tests\obj\Debug\BG.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Tests\obj\Debug\BG.Tests.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Tests\obj\Debug\BG.Tests.pdb

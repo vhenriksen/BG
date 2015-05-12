@@ -1,0 +1,15 @@
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\bin\Debug\Profiler.exe.config
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\bin\Debug\Profiler.exe
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\bin\Debug\Profiler.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\bin\Debug\BG.Tests.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\bin\Debug\BG.Controller.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\bin\Debug\BG.Model.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\bin\Debug\Economic.Api.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\bin\Debug\BG.Tests.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\bin\Debug\BG.Controller.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\bin\Debug\BG.Model.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\bin\Debug\Economic.Api.xml
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\bin\Debug\Economic.Api.XmlSerializers.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\obj\x86\Debug\Profiler.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\obj\x86\Debug\Profiler.exe
+C:\Users\Kent\Documents\Forsøg med BG\BG\Profiler\obj\x86\Debug\Profiler.pdb

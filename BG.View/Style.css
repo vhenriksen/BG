@@ -1,0 +1,34 @@
+﻿#head
+{
+    font-size: large;
+    color: white;
+}
+
+.ui-icon-login
+{
+    background-image: url("image/bgarrow.png");
+    background-size: 36px 36px;
+}
+
+#login #logo
+{
+    width: 100%;
+    height: auto;
+    max-width: 329px;
+}
+
+#login #loader
+{
+    color: #999;
+    font-size: 11px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+ul[data-role=fieldcontain]
+{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+}

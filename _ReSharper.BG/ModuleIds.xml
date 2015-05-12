@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="DF880180-61B3-4250-B80B-DAE12FAB523B" ModuleId="BG.Model" />
+  <Module PersistentId="2CBEF080-F65C-4AF6-9CE7-D2BA0E8F9431" ModuleId="BG.View" />
+  <Module PersistentId="6F4EB309-80A3-4A65-A847-5A46C6BC524B" ModuleId="BG.Controller" />
+  <Module PersistentId="B6AFFB1B-5AC0-4F70-B523-AC96122B9D41" ModuleId="BG.CacheRefresher" />
+  <Module PersistentId="3CAE869C-D0F3-4C8D-9324-A9008B91B925" ModuleId="BG.Tests" />
+</Modules>

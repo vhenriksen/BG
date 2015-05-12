@@ -1,0 +1,14 @@
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Release\BG.CacheRefresher.exe
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Release\BG.CacheRefresher.pdb
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Release\BG.Controller.dll
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Release\BG.Model.dll
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Release\Economic.Api.dll
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Release\BG.Controller.pdb
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Release\BG.Model.pdb
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Release\Economic.Api.xml
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\obj\Release\BG.CacheRefresher.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\obj\Release\BG.CacheRefresher.Form1.resources
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\obj\Release\BG.CacheRefresher.Properties.Resources.resources
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\obj\Release\BG.CacheRefresher.csproj.GenerateResource.Cache
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\obj\Release\BG.CacheRefresher.exe
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\obj\Release\BG.CacheRefresher.pdb

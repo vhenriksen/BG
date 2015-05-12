@@ -1,0 +1,21 @@
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Release\BG.Controller.dll.config
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Release\BG.Controller.dll
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Release\BG.Controller.pdb
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Release\BG.Model.dll
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Release\Economic.Api.dll
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Release\BG.Model.pdb
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Release\Economic.Api.xml
+C:\Users\Kent\Documents\BG\BG.Controller\obj\Release\BG.Controller.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\BG\BG.Controller\obj\Release\BG.Controller.dll
+C:\Users\Kent\Documents\BG\BG.Controller\obj\Release\BG.Controller.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Release\BG.Controller.dll.config
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Release\BG.Controller.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Release\BG.Controller.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Release\BG.Model.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Release\Economic.Api.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Release\BG.Model.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Release\Economic.Api.xml
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\obj\Release\BG.Controller.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\obj\Release\BG.Controller.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\obj\Release\BG.Controller.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Release\Economic.Api.XmlSerializers.dll

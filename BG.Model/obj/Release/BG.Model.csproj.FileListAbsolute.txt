@@ -1,0 +1,16 @@
+C:\Users\Kent\Documents\BG\BG.Model\bin\Release\BG.Model.dll.config
+C:\Users\Kent\Documents\BG\BG.Model\bin\Release\BG.Model.dll
+C:\Users\Kent\Documents\BG\BG.Model\bin\Release\BG.Model.pdb
+C:\Users\Kent\Documents\BG\BG.Model\obj\Release\BG.Model.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\BG\BG.Model\obj\Release\BG.Model.dll
+C:\Users\Kent\Documents\BG\BG.Model\obj\Release\BG.Model.pdb
+C:\Users\Kent\Documents\BG\BG.Model\bin\Release\EntityFramework.dll
+C:\Users\Kent\Documents\BG\BG.Model\bin\Release\EntityFramework.xml
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Model\bin\Release\BG.Model.dll.config
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Model\bin\Release\BG.Model.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Model\bin\Release\BG.Model.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Model\bin\Release\EntityFramework.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Model\bin\Release\EntityFramework.xml
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Model\obj\Release\BG.Model.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Model\obj\Release\BG.Model.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Model\obj\Release\BG.Model.pdb

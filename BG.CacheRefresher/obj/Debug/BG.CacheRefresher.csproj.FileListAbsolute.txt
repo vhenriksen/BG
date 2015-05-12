@@ -1,0 +1,29 @@
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Debug\BG.CacheRefresher.exe
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Debug\BG.CacheRefresher.pdb
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Debug\BG.Controller.dll
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Debug\BG.Model.dll
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Debug\Economic.Api.dll
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Debug\BG.Controller.pdb
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Debug\BG.Model.pdb
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\bin\Debug\Economic.Api.xml
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\obj\Debug\BG.CacheRefresher.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\obj\Debug\BG.CacheRefresher.Form1.resources
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\obj\Debug\BG.CacheRefresher.Properties.Resources.resources
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\obj\Debug\BG.CacheRefresher.csproj.GenerateResource.Cache
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\obj\Debug\BG.CacheRefresher.exe
+C:\Users\Kent\Documents\BG\BG.CacheRefresher\obj\Debug\BG.CacheRefresher.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\bin\Debug\BG.CacheRefresher.exe
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\bin\Debug\BG.CacheRefresher.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\bin\Debug\BG.Controller.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\bin\Debug\BG.Model.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\bin\Debug\Economic.Api.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\bin\Debug\BG.Controller.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\bin\Debug\BG.Model.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\bin\Debug\Economic.Api.xml
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\bin\Debug\Economic.Api.XmlSerializers.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\obj\Debug\BG.CacheRefresher.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\obj\Debug\BG.CacheRefresher.Form1.resources
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\obj\Debug\BG.CacheRefresher.Properties.Resources.resources
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\obj\Debug\BG.CacheRefresher.csproj.GenerateResource.Cache
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\obj\Debug\BG.CacheRefresher.exe
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.CacheRefresher\obj\Debug\BG.CacheRefresher.pdb

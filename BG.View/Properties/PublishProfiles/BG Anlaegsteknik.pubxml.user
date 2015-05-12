@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>C:\Users\Kent\Documents\BG Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AllRoutines.aspx">
+      <publishTime>01/08/2014 14:32:35</publishTime>
+    </File>
+    <File Include="AllRoutines.aspx.cs">
+      <publishTime>01/08/2014 14:33:42</publishTime>
+    </File>
+    <File Include="AllRoutines.aspx.designer.cs">
+      <publishTime>01/08/2014 14:32:35</publishTime>
+    </File>
+    <File Include="App.config">
+      <publishTime>07/04/2013 10:20:57</publishTime>
+    </File>
+    <File Include="BG.View.csproj">
+      <publishTime>01/08/2014 10:50:21</publishTime>
+    </File>
+    <File Include="BG.View.csproj.user">
+      <publishTime>01/08/2014 10:50:21</publishTime>
+    </File>
+    <File Include="bin/BG.Controller.dll">
+      <publishTime>01/09/2014 20:06:19</publishTime>
+    </File>
+    <File Include="bin/BG.Model.dll">
+      <publishTime>12/12/2013 20:50:44</publishTime>
+    </File>
+    <File Include="bin/BG.View.dll">
+      <publishTime>01/09/2014 20:06:21</publishTime>
+    </File>
+    <File Include="bin/Economic.Api.dll">
+      <publishTime>10/17/2013 10:59:02</publishTime>
+    </File>
+    <File Include="bin/Economic.Api.XmlSerializers.dll">
+      <publishTime>10/17/2013 11:00:38</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>07/04/2013 10:20:24</publishTime>
+    </File>
+    <File Include="bin/System.Data.Entity.dll">
+      <publishTime>03/18/2010 18:31:26</publishTime>
+    </File>
+    <File Include="DayStartedEnded.aspx">
+      <publishTime>12/16/2013 13:49:40</publishTime>
+    </File>
+    <File Include="DayStartedEnded.aspx.cs">
+      <publishTime>12/17/2013 10:01:18</publishTime>
+    </File>
+    <File Include="DayStartedEnded.aspx.designer.cs">
+      <publishTime>08/12/2013 19:23:08</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>07/05/2013 10:58:56</publishTime>
+    </File>
+    <File Include="Default.aspx.cs">
+      <publishTime>11/27/2013 13:43:37</publishTime>
+    </File>
+    <File Include="Default.aspx.designer.cs">
+      <publishTime>07/04/2013 11:08:13</publishTime>
+    </File>
+    <File Include="FixPostback.js">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Global.asax.cs">
+      <publishTime>09/06/2013 08:49:55</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>01/07/2014 11:27:00</publishTime>
+    </File>
+    <File Include="Home.aspx.cs">
+      <publishTime>01/09/2014 15:19:51</publishTime>
+    </File>
+    <File Include="Home.aspx.designer.cs">
+      <publishTime>01/07/2014 11:27:01</publishTime>
+    </File>
+    <File Include="Image/BG.png">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Image/bgarrow.png">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Image/Loader.gif">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Libraries/Economic.Api.dll">
+      <publishTime>10/17/2013 10:59:02</publishTime>
+    </File>
+    <File Include="Libraries/Economic.Api.XmlSerializers.dll">
+      <publishTime>10/17/2013 11:00:38</publishTime>
+    </File>
+    <File Include="ManageRoutines.aspx">
+      <publishTime>01/08/2014 14:26:23</publishTime>
+    </File>
+    <File Include="ManageRoutines.aspx.cs">
+      <publishTime>01/08/2014 14:30:00</publishTime>
+    </File>
+    <File Include="ManageRoutines.aspx.designer.cs">
+      <publishTime>01/08/2014 14:26:15</publishTime>
+    </File>
+    <File Include="NewTaskType.aspx">
+      <publishTime>12/17/2013 11:49:59</publishTime>
+    </File>
+    <File Include="NewTaskType.aspx.cs">
+      <publishTime>12/17/2013 12:11:09</publishTime>
+    </File>
+    <File Include="NewTaskType.aspx.designer.cs">
+      <publishTime>08/14/2013 11:39:04</publishTime>
+    </File>
+    <File Include="oldRoutine.aspx">
+      <publishTime>01/08/2014 12:05:27</publishTime>
+    </File>
+    <File Include="oldRoutine.aspx.cs">
+      <publishTime>01/08/2014 13:05:16</publishTime>
+    </File>
+    <File Include="oldRoutine.aspx.designer.cs">
+      <publishTime>01/08/2014 11:54:34</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/04/2013 10:20:26</publishTime>
+    </File>
+    <File Include="PerformedActivities.aspx">
+      <publishTime>01/09/2014 10:33:03</publishTime>
+    </File>
+    <File Include="PerformedActivities.aspx.cs">
+      <publishTime>01/09/2014 11:26:01</publishTime>
+    </File>
+    <File Include="PerformedActivities.aspx.designer.cs">
+      <publishTime>01/09/2014 10:32:57</publishTime>
+    </File>
+    <File Include="Properties/AssemblyInfo.cs">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/BG Anlaegsteknik.pubxml">
+      <publishTime>08/14/2013 11:45:24</publishTime>
+    </File>
+    <File Include="RefreshCache.aspx">
+      <publishTime>08/28/2013 20:25:03</publishTime>
+    </File>
+    <File Include="RefreshCache.aspx.cs">
+      <publishTime>09/26/2013 10:29:53</publishTime>
+    </File>
+    <File Include="RefreshCache.aspx.designer.cs">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Routines.aspx">
+      <publishTime>01/08/2014 13:51:58</publishTime>
+    </File>
+    <File Include="Routines.aspx.cs">
+      <publishTime>01/08/2014 13:56:57</publishTime>
+    </File>
+    <File Include="Routines.aspx.designer.cs">
+      <publishTime>12/19/2013 13:04:52</publishTime>
+    </File>
+    <File Include="RUDTaskType.aspx">
+      <publishTime>12/11/2013 14:02:27</publishTime>
+    </File>
+    <File Include="RUDTaskType.aspx.cs">
+      <publishTime>12/19/2013 14:32:16</publishTime>
+    </File>
+    <File Include="RUDTaskType.aspx.designer.cs">
+      <publishTime>12/11/2013 14:02:24</publishTime>
+    </File>
+    <File Include="SearchProject.aspx">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="SearchProject.aspx.cs">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="SearchProject.aspx.designer.cs">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="SelectedRoutine.aspx">
+      <publishTime>11/05/2013 19:58:25</publishTime>
+    </File>
+    <File Include="SelectedRoutine.aspx.cs">
+      <publishTime>01/09/2014 11:24:47</publishTime>
+    </File>
+    <File Include="SelectedRoutine.aspx.designer.cs">
+      <publishTime>10/10/2013 08:10:59</publishTime>
+    </File>
+    <File Include="Style.css">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Test.aspx">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Test.aspx.cs">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Test.aspx.designer.cs">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Themes/bg.css">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Themes/bg.min.css">
+      <publishTime>11/04/2013 15:07:24</publishTime>
+    </File>
+    <File Include="Themes/images/ajax-loader.gif">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Themes/images/icons-18-black.png">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Themes/images/icons-18-white.png">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Themes/images/icons-36-black.png">
+      <publishTime>01/16/2013 11:23:04</publishTime>
+    </File>
+    <File Include="Themes/images/icons-36-white.png">
+      <publishTime>01/16/2013 11:23:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/09/2013 09:46:32</publishTime>
+    </File>
+    <File Include="Web.Debug.config">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="Web.Release.config">
+      <publishTime>01/16/2013 11:23:03</publishTime>
+    </File>
+    <File Include="workday.aspx">
+      <publishTime>01/09/2014 19:58:13</publishTime>
+    </File>
+    <File Include="workday.aspx.cs">
+      <publishTime>01/09/2014 14:34:14</publishTime>
+    </File>
+    <File Include="workday.aspx.designer.cs">
+      <publishTime>01/09/2014 19:58:05</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+C:\Users\Kent\Documents\Datamatiker\4. Semester\BG anlægsteknik\BG\BG.Controller\bin\Debug\BG.Controller.dll.config
+C:\Users\Kent\Documents\Datamatiker\4. Semester\BG anlægsteknik\BG\BG.Controller\bin\Debug\BG.Controller.dll
+C:\Users\Kent\Documents\Datamatiker\4. Semester\BG anlægsteknik\BG\BG.Controller\bin\Debug\BG.Controller.pdb
+C:\Users\Kent\Documents\Datamatiker\4. Semester\BG anlægsteknik\BG\BG.Controller\bin\Debug\BG.Model.dll
+C:\Users\Kent\Documents\Datamatiker\4. Semester\BG anlægsteknik\BG\BG.Controller\bin\Debug\Economic.Api.dll
+C:\Users\Kent\Documents\Datamatiker\4. Semester\BG anlægsteknik\BG\BG.Controller\bin\Debug\BG.Model.pdb
+C:\Users\Kent\Documents\Datamatiker\4. Semester\BG anlægsteknik\BG\BG.Controller\bin\Debug\Economic.Api.xml
+C:\Users\Kent\Documents\Datamatiker\4. Semester\BG anlægsteknik\BG\BG.Controller\obj\Debug\BG.Controller.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\Datamatiker\4. Semester\BG anlægsteknik\BG\BG.Controller\obj\Debug\BG.Controller.dll
+C:\Users\Kent\Documents\Datamatiker\4. Semester\BG anlægsteknik\BG\BG.Controller\obj\Debug\BG.Controller.pdb
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Debug\BG.Controller.dll.config
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Debug\BG.Controller.dll
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Debug\BG.Controller.pdb
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Debug\BG.Model.dll
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Debug\Economic.Api.dll
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Debug\BG.Model.pdb
+C:\Users\Kent\Documents\BG\BG.Controller\bin\Debug\Economic.Api.xml
+C:\Users\Kent\Documents\BG\BG.Controller\obj\Debug\BG.Controller.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\BG\BG.Controller\obj\Debug\BG.Controller.dll
+C:\Users\Kent\Documents\BG\BG.Controller\obj\Debug\BG.Controller.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Debug\BG.Controller.dll.config
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Debug\BG.Controller.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Debug\BG.Controller.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Debug\BG.Model.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Debug\Economic.Api.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Debug\BG.Model.pdb
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Debug\Economic.Api.xml
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\bin\Debug\Economic.Api.XmlSerializers.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\obj\Debug\BG.Controller.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\obj\Debug\BG.Controller.dll
+C:\Users\Kent\Documents\Forsøg med BG\BG\BG.Controller\obj\Debug\BG.Controller.pdb

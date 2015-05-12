@@ -1,0 +1,14 @@
+C:\Users\Kent\Documents\BG\Profiler\bin\Release\Profiler.exe.config
+C:\Users\Kent\Documents\BG\Profiler\bin\Release\Profiler.exe
+C:\Users\Kent\Documents\BG\Profiler\bin\Release\Profiler.pdb
+C:\Users\Kent\Documents\BG\Profiler\bin\Release\BG.Tests.dll
+C:\Users\Kent\Documents\BG\Profiler\bin\Release\BG.Controller.dll
+C:\Users\Kent\Documents\BG\Profiler\bin\Release\BG.Model.dll
+C:\Users\Kent\Documents\BG\Profiler\bin\Release\Economic.Api.dll
+C:\Users\Kent\Documents\BG\Profiler\bin\Release\BG.Tests.pdb
+C:\Users\Kent\Documents\BG\Profiler\bin\Release\BG.Controller.pdb
+C:\Users\Kent\Documents\BG\Profiler\bin\Release\BG.Model.pdb
+C:\Users\Kent\Documents\BG\Profiler\bin\Release\Economic.Api.xml
+C:\Users\Kent\Documents\BG\Profiler\obj\x86\Release\Profiler.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\BG\Profiler\obj\x86\Release\Profiler.exe
+C:\Users\Kent\Documents\BG\Profiler\obj\x86\Release\Profiler.pdb

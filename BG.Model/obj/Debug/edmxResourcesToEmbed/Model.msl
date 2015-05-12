@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="ModelContainer">
+    <EntitySetMapping Name="TaskSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Task)">
+        <MappingFragment StoreEntitySet="TaskSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TimeEnded" ColumnName="TimeEnded" />
+          <ScalarProperty Name="TimeStarted" ColumnName="TimeStarted" />
+          <ScalarProperty Name="isEmailed" ColumnName="isEmailed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DailyReportSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.DailyReport)">
+        <MappingFragment StoreEntitySet="DailyReportSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DayEnded" ColumnName="DayEnded" />
+          <ScalarProperty Name="DayStarted" ColumnName="DayStarted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EconomicCacheSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.EconomicCache)">
+        <MappingFragment StoreEntitySet="EconomicCacheSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EconomicProjectSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.EconomicProject)">
+        <MappingFragment StoreEntitySet="EconomicProjectSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EconomicProjectId" ColumnName="EconomicProjectId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EconomicTaskTypeSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.EconomicTaskType)">
+        <MappingFragment StoreEntitySet="EconomicTaskTypeSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EconomicTaskTypeId" ColumnName="EconomicTaskTypeId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.User)">
+        <MappingFragment StoreEntitySet="UserSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EconomicUserId" ColumnName="EconomicUserId" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GroupSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Group)">
+        <MappingFragment StoreEntitySet="GroupSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="EconomicGroupNumber" ColumnName="EconomicGroupNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RoutineSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Routine)">
+        <MappingFragment StoreEntitySet="RoutineSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="RouteId" ColumnName="RouteId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ActivitySet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Activity)">
+        <MappingFragment StoreEntitySet="ActivitySet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Minutes" ColumnName="Minutes" />
+          <ScalarProperty Name="ActivityTaken" ColumnName="ActivityTaken" />
+          <ScalarProperty Name="IsUsed" ColumnName="IsUsed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BreakSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Break)">
+        <MappingFragment StoreEntitySet="BreakSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BreakStarted" ColumnName="BreakStarted" />
+          <ScalarProperty Name="BreakEnded" ColumnName="BreakEnded" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RouteSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Route)">
+        <MappingFragment StoreEntitySet="RouteSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DateSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Date)">
+        <MappingFragment StoreEntitySet="DateSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TheDate" ColumnName="TheDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ActivityUserSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.ActivityUser)">
+        <MappingFragment StoreEntitySet="ActivityUserSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ActivityId" ColumnName="ActivityId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="UserDailyReport" TypeName="Model.UserDailyReport" StoreEntitySet="DailyReportSet">
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="User_Id" />
+      </EndProperty>
+      <EndProperty Name="DailyReport">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="DailyReportTask" TypeName="Model.DailyReportTask" StoreEntitySet="TaskSet">
+      <EndProperty Name="DailyReport">
+        <ScalarProperty Name="Id" ColumnName="DailyReport_Id" />
+      </EndProperty>
+      <EndProperty Name="Task">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EconomicCacheEconomicProject" TypeName="Model.EconomicCacheEconomicProject" StoreEntitySet="EconomicProjectSet">
+      <EndProperty Name="EconomicCache">
+        <ScalarProperty Name="Id" ColumnName="EconomicCache_Id" />
+      </EndProperty>
+      <EndProperty Name="EconomicProject">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EconomicProjectEconomicTask" TypeName="Model.EconomicProjectEconomicTask" StoreEntitySet="EconomicProjectEconomicTask">
+      <EndProperty Name="EconomicProject">
+        <ScalarProperty Name="Id" ColumnName="EconomicProject_Id" />
+      </EndProperty>
+      <EndProperty Name="EconomicTask">
+        <ScalarProperty Name="Id" ColumnName="EconomicTaskTypes_Id" />
+        <ScalarProperty Name="EconomicTaskTypeId" ColumnName="EconomicTaskTypes_EconomicTaskTypeId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EconomicTaskTask" TypeName="Model.EconomicTaskTask" StoreEntitySet="TaskSet">
+      <EndProperty Name="EconomicTask">
+        <ScalarProperty Name="Id" ColumnName="EconomicTask_Id" />
+        <ScalarProperty Name="EconomicTaskTypeId" ColumnName="EconomicTask_EconomicTaskTypeId" />
+      </EndProperty>
+      <EndProperty Name="Task">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EconomicProjectTask" TypeName="Model.EconomicProjectTask" StoreEntitySet="TaskSet">
+      <EndProperty Name="EconomicProject">
+        <ScalarProperty Name="Id" ColumnName="EconomicProject_Id" />
+      </EndProperty>
+      <EndProperty Name="Task">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EconomicProjectGroup" TypeName="Model.EconomicProjectGroup" StoreEntitySet="EconomicProjectSet">
+      <EndProperty Name="Group">
+        <ScalarProperty Name="Id" ColumnName="Group_Id" />
+      </EndProperty>
+      <EndProperty Name="EconomicProject">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="GroupUser" TypeName="Model.GroupUser" StoreEntitySet="GroupUser">
+      <EndProperty Name="Group">
+        <ScalarProperty Name="Id" ColumnName="Group_Id" />
+      </EndProperty>
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="User_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ActivityEconomicProject" TypeName="Model.ActivityEconomicProject" StoreEntitySet="ActivitySet">
+      <EndProperty Name="EconomicProject">
+        <ScalarProperty Name="Id" ColumnName="EconomicProject_Id" />
+      </EndProperty>
+      <EndProperty Name="Activity">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ActivityRoutine" TypeName="Model.ActivityRoutine" StoreEntitySet="ActivitySet">
+      <EndProperty Name="Routine">
+        <ScalarProperty Name="Id" ColumnName="Routine_Id" />
+      </EndProperty>
+      <EndProperty Name="Activity">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition ColumnName="Routine_Id" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ActivityEconomicTaskType" TypeName="Model.ActivityEconomicTaskType" StoreEntitySet="ActivitySet">
+      <EndProperty Name="EconomicTaskType">
+        <ScalarProperty Name="Id" ColumnName="EconomicTaskType_Id" />
+        <ScalarProperty Name="EconomicTaskTypeId" ColumnName="EconomicTaskType_EconomicTaskTypeId" />
+      </EndProperty>
+      <EndProperty Name="Activity">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="BreakDailyReport" TypeName="Model.BreakDailyReport" StoreEntitySet="BreakSet">
+      <EndProperty Name="DailyReport">
+        <ScalarProperty Name="Id" ColumnName="DailyReport_Id" />
+      </EndProperty>
+      <EndProperty Name="Break">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="DateRoutine" TypeName="Model.DateRoutine" StoreEntitySet="DateRoutine">
+      <EndProperty Name="Date">
+        <ScalarProperty Name="Id" ColumnName="Dates_Id" />
+      </EndProperty>
+      <EndProperty Name="Routine">
+        <ScalarProperty Name="Id" ColumnName="Routines_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ActivityTask" TypeName="Model.ActivityTask" StoreEntitySet="TaskSet">
+      <EndProperty Name="Activity">
+        <ScalarProperty Name="Id" ColumnName="Activity_Id" />
+      </EndProperty>
+      <EndProperty Name="Task">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition ColumnName="Activity_Id" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="UserRoutine" TypeName="Model.UserRoutine" StoreEntitySet="UserRoutine">
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="Users_Id" />
+      </EndProperty>
+      <EndProperty Name="Routine">
+        <ScalarProperty Name="Id" ColumnName="Routines_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ActivityUserActivity" TypeName="Model.ActivityUserActivity" StoreEntitySet="ActivitySet">
+      <EndProperty Name="ActivityUser">
+        <ScalarProperty Name="Id" ColumnName="TakenBy_Id" />
+      </EndProperty>
+      <EndProperty Name="Activity">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition ColumnName="TakenBy_Id" IsNull="false" />
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

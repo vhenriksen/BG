@@ -1,0 +1,12 @@
+C:\Users\Kent\Documents\BG\BG.Tests\bin\Release\BG.Tests.dll.config
+C:\Users\Kent\Documents\BG\BG.Tests\bin\Release\BG.Tests.dll
+C:\Users\Kent\Documents\BG\BG.Tests\bin\Release\BG.Tests.pdb
+C:\Users\Kent\Documents\BG\BG.Tests\bin\Release\BG.Controller.dll
+C:\Users\Kent\Documents\BG\BG.Tests\bin\Release\BG.Model.dll
+C:\Users\Kent\Documents\BG\BG.Tests\bin\Release\Economic.Api.dll
+C:\Users\Kent\Documents\BG\BG.Tests\bin\Release\BG.Controller.pdb
+C:\Users\Kent\Documents\BG\BG.Tests\bin\Release\BG.Model.pdb
+C:\Users\Kent\Documents\BG\BG.Tests\bin\Release\Economic.Api.xml
+C:\Users\Kent\Documents\BG\BG.Tests\obj\Release\BG.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Documents\BG\BG.Tests\obj\Release\BG.Tests.dll
+C:\Users\Kent\Documents\BG\BG.Tests\obj\Release\BG.Tests.pdb
